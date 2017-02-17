@@ -1,0 +1,18 @@
+div.nav-tab {
+  background-color: Moccasin;
+  border-style: solid;
+}
+
+a.navigation {
+  text-decoration: none;
+  color: brown;
+  font-family: Verdana, Geneva, sans-serif;
+}
+
+div.nav-tab:hover {
+  background-color: khaki;
+}
+
+h1 {
+  font-family: Verdana, Geneva, sans-serif;
+}
