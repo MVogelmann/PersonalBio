@@ -16,3 +16,7 @@ div.nav-tab:hover {
 h1 {
   font-family: Verdana, Geneva, sans-serif;
 }
+p.header_text {
+  text-align: center;
+  font-family: calibri, helvetica, sans-serif;
+}
