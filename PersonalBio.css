@@ -1,12 +1,22 @@
 div.nav-tab {
-  background-color: Moccasin;
-  border-style: solid;
+  margin-bottom: 5px;
+  width: 90%;
+  background-color: rgb(210,215,221);
+  border-style: none;
+  border-width: medium;
+  border-color: rgb(30, 57, 87);
+}
+
+nav.nav-menu {
+  width: 15%;
+  float: left;
+  border-style: double;
 }
 
 a.navigation {
   text-decoration: none;
-  color: brown;
-  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  font-family: calibri, helvetica, sans-serif;
 }
 
 div.nav-tab:hover {
@@ -14,9 +24,20 @@ div.nav-tab:hover {
 }
 
 h1 {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: calibri, helvetica, sans-serif;
 }
 p.header_text {
   text-align: center;
   font-family: calibri, helvetica, sans-serif;
+  color: rgb(30, 57, 87);
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+div.bar_blue {
+  background-color: rgb(30, 57, 87);
+  height: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  margin-bottom: 50px;
 }
