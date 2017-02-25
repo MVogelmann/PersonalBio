@@ -1,27 +1,40 @@
+body{
+  background-color: rgb(255,255,245);
+}
 div.nav-tab {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   width: 90%;
+  height: 25px;
+  box-sizing: border-box;
+  border-radius: 5px 5px 5px 5px;
   background-color: rgb(210,215,221);
   border-style: none;
   border-width: medium;
   border-color: rgb(30, 57, 87);
 }
 
+div.nav-tab:hover {
+  background-color: khaki;
+}
+
 nav.nav-menu {
-  width: 15%;
+
+  width: 220px;
+  height: 1000px;
+  border-right: solid;
+  border-right-width: thick;
+  border-color: rgb(210,215,221);
   float: left;
-  border-style: double;
 }
 
 a.navigation {
   text-decoration: none;
+  font-size: large;
   color: black;
   font-family: calibri, helvetica, sans-serif;
+  margin-left: 10px;
 }
 
-div.nav-tab:hover {
-  background-color: khaki;
-}
 
 h1 {
   font-family: calibri, helvetica, sans-serif;
@@ -39,5 +52,18 @@ div.bar_blue {
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
+}
+div.main-div {
+  margin-left: 20px;
+  float: left;
+  width: 1000px;
+  border-style: none;
+  background-color: none;
+}
+p.std-text {
+  font-family: calibri, helvetica, sans-serif;
+}
+p.std-text::first-letter {
+  font-size: 200%;
 }
