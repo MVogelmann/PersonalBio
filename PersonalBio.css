@@ -1,69 +1,66 @@
 body{
   background-color: rgb(255,255,245);
 }
-div.nav-tab {
-  margin-bottom: 10px;
-  width: 90%;
-  height: 25px;
-  box-sizing: border-box;
-  border-radius: 5px 5px 5px 5px;
-  background-color: rgb(210,215,221);
-  border-style: none;
-  border-width: medium;
-  border-color: rgb(30, 57, 87);
-}
-
-div.nav-tab:hover {
-  background-color: khaki;
-}
-
 nav.nav-menu {
-
+  float: left;
   width: 220px;
   height: 1000px;
   border-right: solid;
   border-right-width: thick;
   border-color: rgb(210,215,221);
-  float: left;
+  background-color: rgb(210,215,221);
 }
-
+div.nav-tab {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 90%;
+  height: 25px;
+  box-sizing: border-box;
+  border-radius: 5px 5px 5px 5px;
+  background-color: rgb(30, 57, 87);
+}
+div.nav-tab:hover {
+  background-color: rgb(110,115,121);
+}
 a.navigation {
   text-decoration: none;
   font-size: large;
-  color: black;
+  color: white;
   font-family: calibri, helvetica, sans-serif;
   margin-left: 10px;
 }
-
-
-h1 {
-  font-family: calibri, helvetica, sans-serif;
+div.top-div {
+  height: 120px;
+  border-style: solid;
+  border-color: rgb(210,215,221);
+  background-color: rgb(210,215,221);
 }
-p.header_text {
+div.top-div > p {
   text-align: center;
   font-family: calibri, helvetica, sans-serif;
   color: rgb(30, 57, 87);
-  margin-bottom: 2px;
-  margin-top: 2px;
 }
-div.bar_blue {
+#bar_blue {
   background-color: rgb(30, 57, 87);
   height: 8px;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
-  margin-bottom: 70px;
+  margin-bottom: 20px;
 }
 div.main-div {
   margin-left: 20px;
   float: left;
-  width: 1000px;
+  width: 60%;
   border-style: none;
   background-color: none;
-}
-p.std-text {
   font-family: calibri, helvetica, sans-serif;
+  font-size: large;
 }
-p.std-text::first-letter {
+h1 + p::first-letter {
   font-size: 200%;
+}
+.bold {
+  font-weight: bold;
 }
