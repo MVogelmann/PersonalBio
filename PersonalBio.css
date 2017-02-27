@@ -64,3 +64,6 @@ h1 + p::first-letter {
 .bold {
   font-weight: bold;
 }
+div.main-div a {
+  color: black;
+}
