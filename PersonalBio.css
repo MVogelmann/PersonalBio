@@ -67,3 +67,10 @@ h1 + p::first-letter {
 div.main-div a {
   color: black;
 }
+div.div-pic {
+  float:left;
+  width: 35%;
+}
+div.div-pic img {
+  width: 90%;
+}
